@@ -10,7 +10,7 @@ print("""Qual operação deseja realizar?
 4 - Extrato:
 0 - Sair""")
 
-op = int(input("Qual operação deseja fazer? (1, 2, 3, 4 ou 0)"))
+op = int(input("Qual operação deseja fazer? (1, 2, 3, 4 ou 0)")) ##Cliente solicita a opção que deseja realizar
 
 while op != 0:
     if op == 1:
